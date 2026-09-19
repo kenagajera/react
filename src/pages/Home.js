@@ -1,5 +1,4 @@
 import Barcode from "../subpages/Barcode";
-import Nev from "../subpages/Nev";
 import './pages.css';
 
 function Home() {
