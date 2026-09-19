@@ -1,0 +1,215 @@
+.Container {
+  margin: 50px auto;
+  padding: 30px;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Container h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* ----------------- Timer Component - Colorful Modern Style ----------------- */
+
+.timer {
+  max-width: 420px;
+  margin: 80px auto;
+  padding: 40px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.time {
+  font-size: 42px;
+  color: #2e86de;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.timer button {
+  margin: 10px;
+  padding: 14px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background: #2e86de;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.timer button:hover {
+  background: #2162a9;
+  transform: scale(1.05);
+}
+.timer button:nth-child(2) {
+  background-color: #e74c3c;
+}
+
+.timer button:nth-child(2):hover {
+  background-color: #c0392b;
+}
+
+.timer button:nth-child(4) {
+  background-color: #27ae60;
+}
+
+.timer button:nth-child(4):hover {
+  background-color: #1e8449;
+}
+
+
+
+/* color style css */
+
+.palette-container {
+  max-width: 500px;
+  margin: 80px auto;
+  text-align: center;
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.selected-color {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.palette {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.color-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: transform 0.2s, border 0.3s ease;
+}
+
+.color-box:hover {
+  transform: scale(1.1);
+  border: 2px solid #444;
+}
+
+.color-box.red {
+  background-color: red;
+}
+
+.color-box.black {
+  background-color: black;
+}
+
+.color-box.yellow {
+  background-color: yellow;
+}
+
+.color-box.green {
+  background-color: green;
+}
+
+.color-box.purple {
+  background-color: purple;
+}
+
+.color-box.orange {
+  background-color: orange;
+}
+
+
+/*  habit style css */
+
+.habit {
+  max-width: 600px;
+  margin: 60px auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.habit input[type="text"] {
+  padding: 10px 14px;
+  width: 80%;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.habit input[type="text"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.habit button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.habit button:hover {
+  background-color: #0056b3;
+}
+
+.hobbies {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.hobbies h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.hobbies ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.hobbies li {
+  padding: 10px;
+  background-color: #e8f0fe;
+  margin: 6px auto;
+  max-width: 80%;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
